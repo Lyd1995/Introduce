@@ -76,4 +76,23 @@ https://github.com/Lyd1995
 （4）、等待作者审核
 
 
-三、安装GitHub
+三、安装Git
+地址：https://www.git-scm.com/download/win
+
+git里面有三个区域：
+（1）git仓库区
+（2）暂存区
+（3）工作区（用于修改、编辑文件）
+
+提交流程：（命令行模式）
+（1）git status 文件名      //得到文件的状态
+（2）git add 文件名         //将文件放入暂存区
+（3）git commit -m 文件名   //从暂存区放入git仓库
+
+（一）、git初始化及仓库创建
+
+
+1、设置用户名：
+git config --global user.name 'Lyd1995'
+git config --global user.name '842354018@'qq.com'
+
