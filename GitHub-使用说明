@@ -104,3 +104,25 @@ git init
 
 3、向仓库添加文件
 touch test.py
+
+4、修改仓库文件：
+vi test.py
+
+wq保存并离开
+
+5、删除
+rm test.py
+
+四、远程仓库
+之前的动作都是在本地，云端的GitHub库并没有发生改变
+
+1、git远程仓库
+目的：实现共享
+git push ：将本地仓库提交到远程仓库
+
+
+2、git克隆操作
+目的：将远程仓库（GitHub对应的项目）复制到本地
+
+命令：
+git clone 仓库地址
