@@ -85,14 +85,22 @@ git里面有三个区域：
 （3）工作区（用于修改、编辑文件）
 
 提交流程：（命令行模式）
-（1）git status 文件名      //得到文件的状态
-（2）git add 文件名         //将文件放入暂存区
-（3）git commit -m 文件名   //从暂存区放入git仓库
+（1）git status              //得到文件的状态
+（2）git add 文件名          //将文件放入暂存区
+（3）git commit -m 文件名    //从暂存区放入git仓库
 
 （一）、git初始化及仓库创建
 
-
-1、设置用户名：
+1、设置用户名与电子邮箱：
 git config --global user.name 'Lyd1995'
-git config --global user.name '842354018@'qq.com'
+git config --global user.name '842354018@qq.com'
 
+该设置在GitHub显示谁提交了提交
+
+2、初始化命令：
+git init
+生成了一个隐藏文件，存储本地仓库信息
+
+
+3、向仓库添加文件
+touch test.py
